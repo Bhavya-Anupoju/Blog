@@ -1,0 +1,21 @@
+name = "brew"
+compatibility_date = "2023-12-01"
+
+[vars]
+DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiZTAyN2Q2MjMtYTE4Yi00ZjliLTgyNWYtMjAzZDNiMDc4ZjBhIiwidGVuYW50X2lkIjoiNGEyZmY5MDIwNmM5YzU0ZTdjOGI1M2NhMTkxZDg5NWI1ZjkxMTNlNGY1MjgzZGZlODQ2MjljNmFiYjhkMDc1NyIsImludGVybmFsX3NlY3JldCI6ImEwYTEwODFiLTVmMGEtNDYyYS1hZGJjLTk0MWE1OWQ3ZDIyNSJ9.nR1VeOVYvDgvMENeSSQ47skAz01DffbG1gKDXGeZ-cE"
+JWT_SECRET = "Bhavyasecret" 
+# [[kv_namespaces]]
+# binding = "MY_KV_NAMESPACE"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "my-bucket"
+
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "my-database"
+# database_id = ""
+
+# [ai]
+# binding = "AI"
