@@ -41,12 +41,12 @@ export const Auth = ({type}: {type: "signup" | "signin"}) => {
                 </div>
                 
                 <div className="pt-8">
-                {type === "signup" ? <LabelledInput label = "Name" placeholder="Bhavya Priya" onChange={(e) => {
+                {<LabelledInput label = "Name" placeholder="Bhavya Priya" onChange={(e) => {
                     setPostInputs({
                     ...postInputs, 
                     name: e.target.value
                     })
-                }}/> : null }
+                }}/>}
                 <LabelledInput label = "Username" placeholder="bhavya@gmail.com" onChange={(e) => {
                     setPostInputs({
                     ...postInputs, 
