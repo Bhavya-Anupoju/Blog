@@ -10,10 +10,8 @@ interface CustomJwtPayload extends JwtPayload {
 export const Appbar = () => {
     const [userName, setUserName] = useState<string>('');
     useEffect(() => {
-        // Retrieve JWT token from local storage
         const token = localStorage.getItem('token');
         console.log("Retrieved token:", token);
-        // Decode JWT token to extract user's name
         if (token) {
             const decodedToken = jwtDecode<CustomJwtPayload>(token);
             console.log("Retrieved token:", decodedToken);
