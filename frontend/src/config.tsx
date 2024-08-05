@@ -1,1 +1,0 @@
-export const BACKEND_URL = "https://brew.brewblog.workers.dev"
