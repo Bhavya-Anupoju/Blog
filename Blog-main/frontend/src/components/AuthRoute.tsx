@@ -4,7 +4,7 @@ interface AuthRouteProps {
     children: JSX.Element;
 }
 
-const AuthRoute: React.FC<AuthRouteProps> = ({ children }) => {
+const AuthRoute = ({ children }) => {
     const location = useLocation();
     const token = localStorage.getItem('token');
 
